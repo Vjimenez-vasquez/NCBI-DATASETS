@@ -10,7 +10,7 @@ conda install -c conda-forge ncbi-datasets-cli
 
 # 5.2: run commands
 
-#!usr/bin
+#!/bin/bash
 
 for file in $(cat genomes.txt)
 do 
