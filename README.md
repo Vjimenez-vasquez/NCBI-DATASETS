@@ -1,13 +1,15 @@
 # NCBI-DATASETS
 NCBI-DATASETS
 
-# 5.1: install NCBI-DATASETS
 ```r
+# 5.1: install NCBI-DATASETS
+
 conda create -n ncbi_datasets
 conda activate ncbi_datasets
 conda install -c conda-forge ncbi-datasets-cli
 
 # 5.2: run commands
+
 #!usr/bin
 
 for file in $(cat genomes.txt)
