@@ -12,7 +12,8 @@ conda install -c conda-forge ncbi-datasets-cli
 
 #!/bin/bash
 
-for file in $(cat genomes.txt)
+genome=$1
+for file in $(cat $genome)
 do 
 datasets download genome accession ${file} --filename ${file}.zip ;
 unzip ${file}.zip -d ${file}/ ;
