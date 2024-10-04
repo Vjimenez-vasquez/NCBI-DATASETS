@@ -33,12 +33,12 @@ done
 ls ;
 ```
 
-```r
 # USAGE
+```r
 ./command_ncbidatasets.sh genomes.txt
 ```
 
+# OUTPUT
 ```r
-# output
 genomas descargados en formato *.fasta
 ```
