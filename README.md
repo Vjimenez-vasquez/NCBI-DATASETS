@@ -2,7 +2,7 @@
 NCBI-DATASETS
 
 # 5.1: install NCBI-DATASETS
-´´´r
+r
 conda create -n ncbi_datasets
 conda activate ncbi_datasets
 conda install -c conda-forge ncbi-datasets-cli
@@ -26,4 +26,3 @@ mv "$file" "$(echo "$file" | sed -e 's/.2_.*/.2.fasta/g')"
 mv "$file" "$(echo "$file" | sed -e 's/.3_.*/.3.fasta/g')"
 done 
 ls ;
-´´´
